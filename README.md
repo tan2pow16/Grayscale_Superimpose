@@ -1,4 +1,4 @@
-# Grayscale_Superimpose
+# Grayscale Superimpose
 Copyright (c) 2020, tan2pow16, All rights reserved.
 
 ## Introduction
@@ -15,6 +15,6 @@ Please refer to `details.pdf` in this repo. The RGB to grayscale implementation 
 ## Usage
 `java.exe -jar compiled.jar --in1 <input_filepath_white_bg> --in2 <input_filepath_black_bg> --out <output_filepath> --res <width>x<height>`
 
- * Example
+## Example
   `java.exe -jar compiled.jar --in1 D:\Image1.png --in2 D:\Image2.png --out D:\Test.png --res 1366x768`
   Combine `D:\Image1.png` (which will shows with white background) and `D:\Image2.png` (which will shows with black background) into `D:\Test.png` with resolution of 1366 x 768 pixels. (The `--res` flag is optional if two input images share identical resolution.)
