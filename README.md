@@ -1,5 +1,5 @@
 # Grayscale Superimpose
-Copyright (c) 2020, tan2pow16, All rights reserved.
+Copyright (c) 2020, tan2pow16. All rights reserved.
 
 ## Introduction
 This project is inspired by the following video:
