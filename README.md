@@ -11,7 +11,7 @@ The video features a couple of grayscale images that give out different apperanc
 This repo does not come with precompiled binaries. It just contains a single Java file and requires no 3rd party libraries. Jre 8 is required.
 
 ## Implementation details
-Please refer to `details.pdf` in this repo. The RGB to grayscale implementation in use is linear luminance CIE 1931 colorspace.
+Please refer to [`details.pdf`](https://github.com/tan2pow16/Grayscale_Superimpose/blob/main/details.pdf) in this repo. The RGB to grayscale implementation in use is linear luminance CIE 1931 colorspace.
 
 ## Usage
 `java.exe -jar compiled.jar --in1 <input_filepath_white_bg> --in2 <input_filepath_black_bg> --out <output_filepath> --res <width>x<height>`
